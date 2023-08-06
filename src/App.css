@@ -1,0 +1,110 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.App{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 15%, rgba(253,198,29,0.9650145772594753) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+button{
+    margin: 30px auto;
+    color: rgb(255, 255, 255);
+    background-color: purple;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #3333;
+    cursor: pointer; 
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 10px 0;
+    border-radius: 50%;
+    border: 7px solid #dedede;
+    
+}
+
+
+.app__user{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.app__icons{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 1rem;
+}
+
+.app__icons .fas{
+    margin: 0 30px;
+    transition: all 0.2s ease;
+}
+
+.app__icons .fas:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+.footer{
+    display: flex;
+    background-color: #fff;
+    border: 0.5px solid #9d4d8c;
+    border-radius: 5px;
+    color: #9d4d8c;
+    display: flex;
+    font-size: 2rem;
+    height: 50px;
+    height: 55px;
+    justify-content: center;
+    margin: 50px 0;
+    min-width: 400px;
+    width: 70vw;
+    gap: 50px;
+}
+
+.brand{
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    cursor: pointer;
+    font-size: 2rem;
+
+}
+
+.img-footer{
+    width: 40px;
+    border: none;
+    padding-bottom: 214px;
+}
+
+
